@@ -875,6 +875,7 @@ async function doLogin() {
 }
 
 async function doReg() {
+  toast('本站已停用注册，请到新站 hadesstarspace.github.io/qs-exchange/'); return;
   const name = ($('#rName').value || '').trim();
   const login = ($('#rLogin').value || '').trim().toLowerCase();
   const pw = $('#rPw').value;
